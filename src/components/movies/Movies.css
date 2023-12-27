@@ -1,0 +1,25 @@
+.movies__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+  justify-content: space-evenly;
+
+  position: relative;
+
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .movies__list {
+    padding: 0.5rem; /* 8px */
+  }
+}

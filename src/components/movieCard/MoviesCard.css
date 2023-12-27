@@ -1,0 +1,58 @@
+.movie__card {
+  border-radius: 0.75rem; /* 12px */
+  cursor: pointer;
+  height: 410px;
+  margin-top: 0.75rem; /* 12px */
+  margin-bottom: 0.75rem; /* 12px */
+  margin-left: 1rem; /* 16px */
+  margin-right: 1rem; /* 16px */
+  margin-right: 24px !important;
+  overflow: hidden;
+  position: relative;
+}
+
+.movie__card_info {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0.75rem;
+  z-index: 20;
+}
+
+.movie__card_title {
+  color: #fff;
+  font-weight: 500;
+  font-size: 24px;
+  word-break: normal;
+  overflow-wrap: normal;
+  overflow-wrap: break-word;
+}
+
+.movie__card_genres {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  word-break: normal;
+  overflow-wrap: normal;
+  overflow-wrap: break-word;
+}
+
+.movie__poster_section {
+  height: 100%;
+}
+
+.movie__poster {
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .movie__card {
+    height: 360px;
+    margin-top: 1.25rem; /* 20px */
+    margin-bottom: 1.25rem; /* 20px */
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 15rem; /* 240px */
+  }
+}

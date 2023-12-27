@@ -1,0 +1,36 @@
+.container {
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 5rem;
+  margin: 0;
+  color: #e74c3c; /* Red color for emphasis */
+}
+
+.container p {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.container a {
+  text-decoration: none;
+  color: #fff; /* Blue color for the link */
+  font-weight: bold;
+}
+
+.container button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #3498db; /* Blue color for the button */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.container button:hover {
+  background-color: #2980b9; /* Darker blue color on hover */
+}

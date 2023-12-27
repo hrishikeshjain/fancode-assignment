@@ -1,0 +1,7 @@
+.searched__movie {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  color: #fff;
+  margin-top: 20px;
+}

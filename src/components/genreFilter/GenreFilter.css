@@ -1,0 +1,31 @@
+.genres__section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #141414;
+  padding-bottom: 20px;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.genre__button {
+  color: white;
+  margin-right: 10px;
+  border: 1px solid white;
+  padding: 5px 10px;
+  margin-top: 16px;
+  background-color: #141414;
+  cursor: pointer;
+  padding: 8px 16px;
+}
+
+.genre__button:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.genre_selected {
+  background-color: #fff;
+  color: black;
+}
