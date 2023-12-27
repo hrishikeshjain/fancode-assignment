@@ -10,6 +10,7 @@ Moviefix is a React-based movie website that allows users to search for movies b
 1) Load movies of previous year when user scrolls up and load movies of next year when user scrolls down until the current year
 2) Filter movies by movie name and single genre.
 3) Smooth experience when movies are added on scroll down.
+4) Used RTK query for effective state management
 
 # Bugs and left out requirement
 1) some jitter when loading movies on scrolling up
