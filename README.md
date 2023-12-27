@@ -1,30 +1,16 @@
-# React + TypeScript + Vite
+# Fancode movie list assignment
+Moviefix is a React-based movie website that allows users to search for movies by title, filter them by genre.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Steps to run app in local
+1) clone or download the repo
+2) Run `npm install` in root folder
+3) Run `npm run dev` in root folder
 
-Currently, two official plugins are available:
+# Assignment features covered
+1) Load movies of previous year when user scrolls up and load movies of next year when user scrolls down until the current year
+2) Filter movies by movie name and single genre.
+3) Smooth experience when movies are added on scroll down.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# Bugs and left out requirement
+1) some jitter when loading movies on scrolling up
+2) bottom infinite scroll does not work for some of the genres filter
